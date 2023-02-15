@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Caveat:wght@700&family=Fredoka+One&family=Lilita+One&family=Lobster&family=Pacifico&family=Philosopher:ital@1&family=Unbounded:wght@900&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(1.jpg);
+    background-size: cover;
+    font-family: 'Philosopher', sans-serif;
+
+}
+.container{
+    width:90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+.header{
+    width:25%;
+    height:25%;
+    margin-top:10px;
+}
+.header .image{
+    height:260px;
+    width:260px;
+}
+
+.header .image img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius: 200px;
+}
+.image2 img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius: 200px;
+}
+.image3 img{
+    height:90%;
+    width:90%;
+    object-fit:cover;
+    border-radius: 800px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size:30px;
+    font-weight: 700;
+    transition: 0.3s;
+    margin:10px;
+}
+.text h1{
+    font-size: 45px;
+    margin-top: 15px;
+    color:azure;
+}
+.text p{
+    color:ghostwhite;
+}
+.txt2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size:30px;
+    font-weight: 700;
+    transition: 0.3s;
+    margin:10px;
+    color:aliceblue;
+}
+.txt2 p{
+    font-size: 20px;
+}
+.txt2 li{
+    font-size: 20px;
+}
+.txt2 h2{
+    color:aliceblue;
+}
+.btn{
+    padding:9px 14px;
+    border-radius:22px;
+    background-color:orange;
+    font-weight:bold;
+    font-size:21px;
+    margin:0 3px;
+    cursor:pointer;
+}
+.btn:hover{
+   background-color: deepskyblue;
+   color: solid black;
+}
+.btn2{
+    padding:9px 14px;
+    border-radius:22px;
+    background-color:cornflowerblue;
+    font-weight:bold;
+    font-size:21px;
+    margin:0 3px;
+    cursor:pointer;
+    top:5%;
+    left:5%;
+    position: absolute;
+}
+.btn2:hover{
+   background-color:deepskyblue;
+   color: solid black;
+}
+@media(max-width:768px){
+    .container{
+        margin: 30px0;
+    }
+    .header{
+        width: 30;
+        height:34%;
+        margin-top:10px;
+    }
+    .header .image{
+        height:160px;
+        width:160px;
+        margin-top:25px;
+    }
+    .text h1{
+        font-size: 30px;
+        text-align:left;
+    }
+    .text p{
+        text-align:center;
+        width:100%;
+    }
+}
+
+
